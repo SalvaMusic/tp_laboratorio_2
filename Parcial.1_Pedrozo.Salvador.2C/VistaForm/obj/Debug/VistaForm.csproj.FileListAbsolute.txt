@@ -1,0 +1,13 @@
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\bin\Debug\VistaForm.exe.config
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\bin\Debug\VistaForm.exe
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\bin\Debug\VistaForm.pdb
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\bin\Debug\Entidades.dll
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\bin\Debug\Entidades.pdb
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csprojAssemblyReference.cache
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.Form1.resources
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.cache
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.exe
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.pdb

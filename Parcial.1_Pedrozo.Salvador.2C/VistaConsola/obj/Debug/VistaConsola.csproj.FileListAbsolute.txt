@@ -1,0 +1,10 @@
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\bin\Debug\VistaConsola.exe.config
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\bin\Debug\VistaConsola.exe
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\bin\Debug\VistaConsola.pdb
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\bin\Debug\Entidades.dll
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\bin\Debug\Entidades.pdb
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csprojAssemblyReference.cache
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csproj.CopyComplete
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.exe
+D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.pdb
