@@ -1,0 +1,9 @@
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\bin\Debug\Entidades.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\bin\Debug\Entidades.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\bin\Debug\Excepciones.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\bin\Debug\Excepciones.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csprojAssemblyReference.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\obj\Debug\EntidadesAbstractas.csproj.CopyComplete
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\obj\Debug\Entidades.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\EntidadesAbstractas\obj\Debug\Entidades.pdb

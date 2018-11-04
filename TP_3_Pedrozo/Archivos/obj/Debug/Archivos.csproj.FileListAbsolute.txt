@@ -1,0 +1,9 @@
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\bin\Debug\Archivos.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\bin\Debug\Archivos.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\obj\Debug\Archivos.csprojAssemblyReference.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\obj\Debug\Archivos.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\obj\Debug\Archivos.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\bin\Debug\Excepciones.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\bin\Debug\Excepciones.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Archivos\obj\Debug\Archivos.csproj.CopyComplete

@@ -1,0 +1,13 @@
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\Entidades.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\Entidades.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb

@@ -1,0 +1,6 @@
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\TP_3_Pedrozo\Excepciones\obj\Debug\Excepciones.pdb

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Archivos;
 using static ClasesInstanciables.Universidad;
 
 namespace ClasesInstanciables
@@ -65,6 +66,24 @@ namespace ClasesInstanciables
             }
 
             return datos.ToString();
+        }
+
+
+        public static bool Guardar(Jornada jornada)
+        {
+            
+            Texto guardar = new Texto();
+            guardar.Guardar("Jornada.txt", jornada.ToString());
+            return true;
+        }
+
+        public static string Leer()
+        {
+            string datos;
+            Texto leer = new Texto();
+            leer.Leer("Jornada.txt", out datos);
+
+            return datos;
         }
 
         public List<Alumno> Alumnos
