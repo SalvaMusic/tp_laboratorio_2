@@ -4,3 +4,9 @@ D:\VisualStudio\Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.csprojAssembly
 D:\VisualStudio\Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\VisualStudio\Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.dll
 D:\VisualStudio\Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\Entidades\bin\Debug\Entidades.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\Entidades\obj\Debug\Entidades.pdb

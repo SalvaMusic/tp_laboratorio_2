@@ -11,3 +11,16 @@ D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.CoreCom
 D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
 D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.exe
 D:\VisualStudio\Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\bin\Debug\VistaForm.exe.config
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\bin\Debug\VistaForm.exe
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\bin\Debug\VistaForm.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\bin\Debug\Entidades.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\bin\Debug\Entidades.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csprojAssemblyReference.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.Form1.resources
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.Properties.Resources.resources
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.GenerateResource.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.csproj.CopyComplete
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.exe
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaForm\obj\Debug\VistaForm.pdb

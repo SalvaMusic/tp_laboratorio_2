@@ -8,3 +8,13 @@ D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csproj.C
 D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csproj.CopyComplete
 D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.exe
 D:\VisualStudio\Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\bin\Debug\VistaConsola.exe.config
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\bin\Debug\VistaConsola.exe
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\bin\Debug\VistaConsola.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\bin\Debug\Entidades.dll
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\bin\Debug\Entidades.pdb
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csprojAssemblyReference.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csproj.CoreCompileInputs.cache
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.csproj.CopyComplete
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.exe
+C:\Users\Windows\Documents\UTN\Git\tp_laboratorio_2\Parcial.1_Pedrozo.Salvador.2C\VistaConsola\obj\Debug\VistaConsola.pdb
