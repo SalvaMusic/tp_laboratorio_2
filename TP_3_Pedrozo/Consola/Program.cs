@@ -14,12 +14,14 @@ namespace Consola
         static void Main(string[] args)
         {
             Universidad gim = new Universidad();
-            Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456", EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
+            Alumno a1 = new Alumno(1, "Juan", "Lopez", "12234456", 
+            EntidadesAbstractas.Persona.ENacionalidad.Argentino, Universidad.EClases.Programacion,
             Alumno.EEstadoCuenta.Becado);
             gim += a1;
             try
             {
-                Alumno a2 = new Alumno(2, "Juana", "Martinez", "12234458", EntidadesAbstractas.Persona.ENacionalidad.Extranjero, Universidad.EClases.Laboratorio,
+                Alumno a2 = new Alumno(2, "Juana", "Martinez", "12234458", 
+                EntidadesAbstractas.Persona.ENacionalidad.Extranjero, Universidad.EClases.Laboratorio,
                 Alumno.EEstadoCuenta.Deudor);
                 gim += a2;
             }

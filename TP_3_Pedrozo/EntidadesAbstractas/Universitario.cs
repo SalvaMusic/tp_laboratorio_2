@@ -20,7 +20,7 @@ namespace EntidadesAbstractas
 
         protected virtual string MostrarDatos()
         {
-            string datos = String.Format("Legajo: {0}\nLEGAJO NÚMERO: {1}",this.legajo, base.ToString());
+            string datos = String.Format("{0}\nLEGAJO NÚMERO: {1}", base.ToString(), this.legajo);
 
             return datos;
         }

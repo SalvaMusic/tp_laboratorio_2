@@ -38,15 +38,15 @@ namespace EntidadesAbstractas
 
         public override string ToString()
         {
-            string datos = String.Format("{0}, {1}\nDNI: {2}\t{3}",this.Apellido,this,Nombre,this.DNI,this,Nacionalidad);
-
+            string datos = String.Format("NOMBRE COMPLETO: {0}, {1}\nNACIONALIDAD: {2}\n", this.Apellido,this.Nombre,this.Nacionalidad);
+        
             return datos;
         }
 
         private string ValidarNombreApellido (string dato)
         {
             Regex Val = new Regex(@"/^[a-zA-Z]+$/");
-            if (Val.IsMatch(dato))
+            if (!(Val.IsMatch(dato)))
             {
                 return dato;
             }

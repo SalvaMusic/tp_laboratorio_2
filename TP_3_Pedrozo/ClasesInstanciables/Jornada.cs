@@ -58,8 +58,8 @@ namespace ClasesInstanciables
         {
             StringBuilder datos = new StringBuilder();
 
-            datos.AppendFormat("CLASE DE {0} POR {1}",this.Clase, this.Instructor.ToString());
-            datos.AppendLine("ALUMNOS:");
+            datos.AppendFormat("CLASE DE {0} POR {1}", this.Clase, this.Instructor.ToString());
+            datos.AppendLine("\nALUMNOS:");
             foreach(Alumno alumno in this.Alumnos)
             {
                 datos.AppendLine(alumno.ToString());

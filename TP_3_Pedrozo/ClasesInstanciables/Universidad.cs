@@ -27,25 +27,14 @@ namespace ClasesInstanciables
             int s = g.Jornadas.Count;
             int e = g.Instructores.Count;
             int d = g.Alumnos.Count;
-            datos.AppendLine("JORNADA:\n");
+            datos.AppendLine("JORNADA:");
             foreach (Jornada j in g.Jornadas)
             {
-                datos.AppendLine(j.ToString());
-                datos.AppendLine("<------------------------------------------------>");
+                datos.Append(j.ToString());
+                datos.AppendLine("<------------------------------------------------>\n");
             }
 
-            //datos.AppendFormat("Alumnos:\n");
-            //foreach (Alumno a in g.Alumnos)
-            //{
-            //    datos.AppendLine(a.ToString());
-            //}
-            //datos.AppendLine("<------------------------------------------------>");
-            //datos.AppendLine("Profesores:\n");
-            //foreach (Profesor p in g.Instructores)
-            //{
-            //    datos.AppendLine(p.ToString());
-            //}
-            //datos.AppendLine("<------------------------------------------------>");
+            
             return datos.ToString();
         }
 
@@ -168,7 +157,7 @@ namespace ClasesInstanciables
                 }
             }
             g.Jornadas.Add(jornada);
-
+            
             return g;
         }
 

@@ -32,7 +32,7 @@ namespace ClasesInstanciables
         {
             StringBuilder datos = new StringBuilder();
 
-            datos.AppendFormat("{0}\nESTADO DE CUENTA: {1}\n{2}", base.MostrarDatos(), this.estadoCuenta, this.ParticiparEnClase());
+            datos.AppendFormat("{0}\n\nESTADO DE CUENTA: {1}\n{2}", base.MostrarDatos(), this.estadoCuenta, this.ParticiparEnClase());
 
             return datos.ToString();
         }
