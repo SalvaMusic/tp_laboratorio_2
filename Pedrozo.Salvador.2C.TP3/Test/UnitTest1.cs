@@ -47,24 +47,20 @@ namespace Test
         }
 
         /// <summary>
-        /// en caso de haber error al guardar, lanzará la excepción ArchivosException
+        /// en caso de ingresar mas de 8 digitos, lanzará la excepción DniInvalidoException
         /// </summary>
         [TestMethod]
-        public void TestArchivosException()
-        {
-            Universidad gim = new Universidad();
-            Profesor i1 = new Profesor(1, "Juan", "Lopez", "12234456",
-            EntidadesAbstractas.Persona.ENacionalidad.Argentino);
-            gim += i1;
-            gim += Universidad.EClases.Laboratorio;
 
+        public void TestDniInvalidoException()
+        {
             try
             {
-                Jornada.Guardar(gim[0]);
+                Profesor i1 = new Profesor(1, "Juan", "Lopez", "12234421556",
+                EntidadesAbstractas.Persona.ENacionalidad.Argentino);
             }
             catch (Exception e)
             {
-                Assert.IsInstanceOfType(e, typeof(ArchivosException));
+                Assert.IsInstanceOfType(e, typeof(DniInvalidoException));
             }
         }
 

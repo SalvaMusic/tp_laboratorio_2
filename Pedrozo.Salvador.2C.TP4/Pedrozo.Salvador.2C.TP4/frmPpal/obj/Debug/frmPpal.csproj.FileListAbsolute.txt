@@ -1,0 +1,10 @@
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\bin\Debug\frmPpal.exe.config
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\bin\Debug\frmPpal.exe
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\bin\Debug\frmPpal.pdb
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\obj\Debug\frmPpal.csprojAssemblyReference.cache
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\obj\Debug\frmPpal.Form1.resources
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\obj\Debug\frmPpal.Properties.Resources.resources
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\obj\Debug\frmPpal.csproj.GenerateResource.cache
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\obj\Debug\frmPpal.csproj.CoreCompileInputs.cache
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\obj\Debug\frmPpal.exe
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\frmPpal\obj\Debug\frmPpal.pdb

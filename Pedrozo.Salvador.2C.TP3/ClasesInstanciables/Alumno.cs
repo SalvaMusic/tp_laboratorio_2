@@ -63,8 +63,12 @@ namespace ClasesInstanciables
 
         public static bool operator !=(Alumno a, EClases clase)
         {
-           
-            return !(a == clase);
+            if ((a.claseQueToma != clase))
+            {
+                return true;
+            }
+
+            return false;
         }
 
         public enum EEstadoCuenta

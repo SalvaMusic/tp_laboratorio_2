@@ -24,3 +24,16 @@ C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables
 C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
 C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
 C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\TP_3_Pedrozo\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.dll
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\ClasesInstanciables.pdb
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\Archivos.dll
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\Entidades.dll
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\Excepciones.dll
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\Archivos.pdb
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\Entidades.pdb
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\bin\Debug\Excepciones.pdb
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csprojAssemblyReference.cache
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CoreCompileInputs.cache
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.csproj.CopyComplete
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.dll
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP3\ClasesInstanciables\obj\Debug\ClasesInstanciables.pdb
