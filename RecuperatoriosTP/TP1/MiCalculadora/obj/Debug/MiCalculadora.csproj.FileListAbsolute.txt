@@ -1,0 +1,10 @@
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\Nueva carpeta\tp_laboratorio_2\RecuperatoriosTP\TP1\MiCalculadora\obj\Debug\MiCalculadora.pdb
