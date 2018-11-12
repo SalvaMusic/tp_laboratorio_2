@@ -12,18 +12,16 @@ namespace Entidades
 
         private double ValidarNumero (string strNumero)
         {
-            double retorno = Convert.ToDouble(strNumero);
+            double retorno = 0;
+
+                Convert.ToDouble(strNumero);
 
             return retorno;
         }
 
         public string SetNumero
         {
-            set
-            {
-                this.numero = ValidarNumero(value);
-            }
-
+            set { this.numero = ValidarNumero(value); }
         }
 
         public Numero(double numero)
