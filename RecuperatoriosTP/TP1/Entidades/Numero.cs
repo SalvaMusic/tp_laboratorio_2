@@ -34,7 +34,7 @@ namespace Entidades
             {
                 if (array[i] == '0' || array[i] == '1')
                 {
-                    if (binario[i] == '1')
+                    if (array[i] == '1')
                     {
                         num += Math.Pow(2, i);
                     }
