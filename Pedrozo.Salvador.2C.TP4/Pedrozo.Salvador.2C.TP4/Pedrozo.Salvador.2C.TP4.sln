@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 15 for Windows Desktop
+# Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "frmPpal", "frmPpal\frmPpal.csproj", "{3005824B-18EE-4CC1-B421-11EFAE244BC4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainCorreo", "frmPpal\MainCorreo.csproj", "{3005824B-18EE-4CC1-B421-11EFAE244BC4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{222A72D9-B086-4D05-8FE0-1F250CD359D3}"
 EndProject

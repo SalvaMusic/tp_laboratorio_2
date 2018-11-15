@@ -7,9 +7,9 @@ using System.Threading;
 
 namespace Entidades
 {
-    public delegate void DelegadoEstado(object sender, EventArgs e);
     public class Paquete : IMostrar<Paquete>
     {
+        public delegate void DelegadoEstado(object sender, EventArgs e);
         private string direccionEntrega;
         private string trackingID;
         private EEstado estado;
@@ -24,7 +24,8 @@ namespace Entidades
 
         public string MostrarDatos(IMostrar<Paquete> elemento)
         {
-            return String.Format(""/*{0} para {1}", elemento.trackingID, elemento.direccionEntrega*/);
+            Paquete p = (Paquete)elemento;
+            return String.Format("{0} para {1}", p.TrackingID,p.direccionEntrega);
         }
 
         public override string ToString()
@@ -36,9 +37,9 @@ namespace Entidades
         {
             do
             {
-                Thread.Sleep(10000);
+                Thread.Sleep(4000);
                 this.Estado++;
-                InformaEstado(this,EventArgs.Empty);
+                InformaEstado(this, EventArgs.Empty);
             } while (this.Estado == EEstado.Entregado);
             
         }

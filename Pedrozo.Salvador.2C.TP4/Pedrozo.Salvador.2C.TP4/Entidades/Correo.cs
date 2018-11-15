@@ -9,6 +9,7 @@ namespace Entidades
 {
     public class Correo : IMostrar<List<Paquete>>
     {
+        private List<Thread> mockPaquetes;
         private List<Paquete> paquetes;
 
         public Correo()
@@ -18,15 +19,26 @@ namespace Entidades
 
         public void FinEntregas()
         {
-
+            for(int i = 0; i < mockPaquetes.Count; i++)
+            {
+                if(mockPaquetes[i].IsAlive)
+                {
+                    mockPaquetes[i].Abort();
+                }
+            }
         }
 
         public string MostrarDatos(IMostrar<List<Paquete>> elementos)
         {
-            List<Paquete> l = (List<Paquete>)((Correo)elementos).paquetes;
+            List<Paquete> l = ((Correo)elementos).paquetes;
+            string str = "";
 
-            // Su código            
-            return "";
+            foreach (Paquete p in l)
+            {
+                str += string.Format("{0} para {1} ({2})\n", p.TrackingID,p.DireccionEntrega, p.Estado.ToString());
+            }
+                     
+            return str;
         }
 
         public static Correo operator +(Correo c, Paquete p)
@@ -35,14 +47,14 @@ namespace Entidades
             {
                 if (paquete == p)
                 {
-                    //TrackingIdRepetidoException.
-                    return c;
+                    throw new TrackingIdRepetidoException("El paquete ya existe");
+                    
                 }
             }
             c.Paquetes.Add(p);
-
             Thread hilo = new Thread(p.MockCicloDeVida);
-            //c.Paquetes. += hilo.;
+            c.mockPaquetes.Add(hilo);
+            hilo.Start();
             
             return c;
         }
