@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Calculadora
+    public static class Calculadora
     {
-        public object Operador { get; private set; }
 
         private static string ValidarOperador (string operador)
         {
@@ -22,8 +21,9 @@ namespace Entidades
             return retorno;
         }
 
-        public double Operar (Numero num1, Numero num2, string operador)
+        public static double Operar (Numero num1, Numero num2, string operador)
         {
+            Numero num0 = new Numero(0);
             double retorno = 0;
 
             switch (ValidarOperador(operador))
@@ -38,7 +38,14 @@ namespace Entidades
                     retorno = num1 * num2;
                     break;
                 case "/":
-                    retorno = num1 / num2;
+                    try
+                    {
+                        retorno = num1 / num2;
+                    }
+                    catch(DivideByZeroException)
+                    {
+                        retorno = double.MinValue;
+                    }
                     break;
             }
             return retorno;

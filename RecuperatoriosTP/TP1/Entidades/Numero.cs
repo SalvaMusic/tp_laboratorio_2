@@ -10,8 +10,12 @@ namespace Entidades
     {
         private double numero;
 
+        public Numero()
+            :this(0)
+        { }
+
         public Numero(double numero)
-            :this(numero.ToString())
+            : this(numero.ToString())
         { }
 
         public Numero(string numero)
@@ -29,7 +33,7 @@ namespace Entidades
             double num = 0;
             char[] array = binario.ToCharArray();
             Array.Reverse(array);
-            
+
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] == '0' || array[i] == '1')
@@ -41,7 +45,7 @@ namespace Entidades
                 }
                 else
                 {
-                    return string.Format("Valor Invalido");
+                    return string.Format("Valor inválido");
                 }
             }
             return num.ToString();
@@ -51,9 +55,9 @@ namespace Entidades
         {
             string binario = "";
 
-            if(numero < 0)
+            if (numero < 0)
             {
-                return "Valor invalido";
+                return "Valor inválido";
             }
             while (numero > 0)
             {
@@ -74,19 +78,19 @@ namespace Entidades
         public static string DecimalBinario(string numeroStr)
         {
             double num = 0;
-            if(Double.TryParse(numeroStr, out num))
+            if (Double.TryParse(numeroStr, out num))
             {
                 return DecimalBinario(num);
             }
 
-            return "Valor invalido";
+            return "Valor inválido";
         }
 
         private double ValidarNumero(string strNumero)
         {
             double numero;
 
-            if(double.TryParse(strNumero,out numero))
+            if (double.TryParse(strNumero, out numero))
             {
                 return numero;
             }
@@ -116,6 +120,10 @@ namespace Entidades
         {
             if (!(n1 is null) && !(n2 is null))
             {
+                if(n2.numero == 0)
+                {
+                    return double.MinValue;
+                }
                 return n1.numero / n2.numero;
             }
 

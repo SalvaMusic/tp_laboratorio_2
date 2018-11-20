@@ -46,8 +46,7 @@ namespace MiCalculadora
 
         private double Calculadora (Numero num1,Numero num2, string operador)
         {
-            Calculadora calculadora = new Calculadora();
-            return calculadora.Operar(num1, num2, operador);
+            return Entidades.Calculadora.Operar(num1, num2, operador);
         }
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)

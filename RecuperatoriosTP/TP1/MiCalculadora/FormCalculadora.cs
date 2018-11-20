@@ -11,9 +11,9 @@ using Entidades;
 
 namespace MiCalculadora
 {
-    public partial class LaCalculadora : Form
+    public partial class FormCalculadora : Form
     {
-        public LaCalculadora()
+        public FormCalculadora()
         {
             InitializeComponent();
         }
@@ -30,11 +30,10 @@ namespace MiCalculadora
 
         private static double Operar(string numero1, string numero2, string operador)
         {
-            Calculadora calculadora = new Calculadora();
             Numero num1 = new Numero(numero1);
             Numero num2 = new Numero(numero2);
           
-            return calculadora.Operar(num1, num2, operador);
+            return Calculadora.Operar(num1, num2, operador);
         }
 
         private void Limpiar()
@@ -55,12 +54,12 @@ namespace MiCalculadora
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = Numero.DecimalBinario(txtNumero1.Text);
+            lblResultado.Text = Numero.DecimalBinario(lblResultado.Text);
         }
 
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = Numero.BinarioDecimal(txtNumero1.Text);
+            lblResultado.Text = Numero.BinarioDecimal(lblResultado.Text);
         }
     }
 }
