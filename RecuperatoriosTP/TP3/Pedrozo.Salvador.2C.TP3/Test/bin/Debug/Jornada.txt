@@ -1,0 +1,10 @@
+CLASE DE Laboratorio POR NOMBRE COMPLETO: Lopez, Juan
+NACIONALIDAD: Argentino
+
+LEGAJO NÚMERO: 1
+CLASES DEL DIA:
+Legislacion
+Laboratorio
+
+ALUMNOS:
+
