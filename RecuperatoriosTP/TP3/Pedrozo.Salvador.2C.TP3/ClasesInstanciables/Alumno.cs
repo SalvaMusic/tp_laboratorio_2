@@ -9,6 +9,9 @@ using static ClasesInstanciables.Universidad;
 
 namespace ClasesInstanciables
 {
+    /// <summary>
+    /// Clase sellada Alumno. Hereda de Universitario
+    /// </summary>
     public sealed class Alumno : Universitario
     {
         #region Atributos
@@ -57,7 +60,7 @@ namespace ClasesInstanciables
 
         #region Métodos
         /// <summary>
-        /// Sobreescritura del método de clase base. Retorna todos los datos del universitario.
+        /// Sobreescritura del método de clase base. Retorna todos los datos del alumno.
         /// </summary>
         /// <returns>Estado de cuenta y datos del universitario en formato string.</returns>
         protected override string MostrarDatos()

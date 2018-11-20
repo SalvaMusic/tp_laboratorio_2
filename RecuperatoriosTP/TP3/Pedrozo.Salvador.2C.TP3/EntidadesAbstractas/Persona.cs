@@ -146,11 +146,14 @@ namespace EntidadesAbstractas
             }
 
             return ValidarDni(nacionalidad, intDni);
-        } 
+        }
         #endregion
         #endregion
 
         #region Propiedades
+        /// <summary>
+        /// Lectura de nombre y escritura previamente validado en el método "ValidarNombreApellido".
+        /// </summary>
         public string Nombre
         {
             get
@@ -163,6 +166,9 @@ namespace EntidadesAbstractas
             }
         }
 
+        /// <summary>
+        /// Lectura de apellido y escritura previamente validado en el método "ValidarNombreApellido".
+        /// </summary>
         public string Apellido
         {
             get
@@ -174,7 +180,9 @@ namespace EntidadesAbstractas
                 this.apellido = ValidarNombreApellido(value);
             }
         }
-
+        /// <summary>
+        /// Lectura de dni (int) y escritura previamente validado en el método "ValidarDni".
+        /// </summary>
         public int DNI
         {
             get
@@ -186,7 +194,9 @@ namespace EntidadesAbstractas
                 this.dni = ValidarDni(this.Nacionalidad, value);
             }
         }
-
+        /// <summary>
+        /// Lectura de dni (string) y escritura previamente validado en el método "ValidarDni".
+        /// </summary>
         public string StringToDNI
         {
             set
@@ -196,6 +206,9 @@ namespace EntidadesAbstractas
 
         }
 
+        /// <summary>
+        /// Lectura y escritura de nacionalidad.
+        /// </summary>
         public ENacionalidad Nacionalidad
         {
             get
