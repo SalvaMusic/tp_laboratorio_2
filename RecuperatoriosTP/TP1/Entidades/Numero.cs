@@ -6,28 +6,57 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+    /// <summary>
+    /// Clase de instancia para trabajar con numeros del tipo de la clase.
+    /// </summary>
     public class Numero
     {
+        #region Atributos
         private double numero;
+        #endregion
 
+        #region Constructores
+        /// <summary>
+        /// Constructor por defecto, reutiliza su recarga para double pasandole un 0.
+        /// </summary>
         public Numero()
-            :this(0)
+            : this(0)
         { }
 
+        /// <summary>
+        /// Constructor para recibir un double como parametro, reutiliza su recarga para string pasandole "numero" previa conversión.
+        /// </summary>
+        /// <param name="numero"></param>
         public Numero(double numero)
             : this(numero.ToString())
         { }
 
+        /// <summary>
+        /// Constructor para recibir un string como parametro, setea el parametro recibido a la propiedad.
+        /// </summary>
+        /// <param name="numero"></param>
         public Numero(string numero)
         {
             this.SetNumero = numero;
         }
+        #endregion
 
+        #region Propiedades
+        /// <summary>
+        /// Propiedad de escritura, utiliza el metodo validarnumero para setear.
+        /// </summary>
         public string SetNumero
         {
             set { this.numero = ValidarNumero(value); }
         }
+        #endregion
 
+        #region Métodos
+        /// <summary>
+        /// Método estático, recibe un binario como string y lo convierte a decimal.
+        /// </summary>
+        /// <param name="binario"></param>
+        /// <returns>Si el parámetro ingresado es binario válido retonra su conversión, sino retorna "Valor inválido".</returns>
         public static string BinarioDecimal(string binario)
         {
             double num = 0;
@@ -51,6 +80,11 @@ namespace Entidades
             return num.ToString();
         }
 
+        /// <summary>
+        /// Método estático, recibe un decimal como double y lo convierte a binario.
+        /// </summary>
+        /// <param name="binario"></param>
+        /// <returns>Si el parámetro ingresado es positivo retonra su binario como string, sino retorna "Valor inválido".</returns>
         public static string DecimalBinario(double numero)
         {
             string binario = "";
@@ -75,6 +109,11 @@ namespace Entidades
             return binario;
         }
 
+        /// <summary>
+		/// Metodo estático, recibe un string y lo convierte a binario.
+		/// </summary>
+		/// <param name="strDecim"></param>
+		/// <returns>Si el parámetro ingresado es número retonra su binario como string, sino retorna "Valor inválido".</returns>
         public static string DecimalBinario(string numeroStr)
         {
             double num = 0;
@@ -86,6 +125,11 @@ namespace Entidades
             return "Valor inválido";
         }
 
+        /// <summary>
+		/// Metodo privado, valida que el string sea numérico.
+		/// </summary>
+		/// <param name="strNumero"></param>
+		/// <returns>Si el parámetro ingresado es número, retorna su conversión a double, sino retorna 0.</returns>
         private double ValidarNumero(string strNumero)
         {
             double numero;
@@ -97,7 +141,13 @@ namespace Entidades
 
             return 0;
         }
-
+        
+        /// <summary>
+		/// Sobrecarga operador -, recibe dos objetos Numero y los resta.
+		/// </summary>
+		/// <param name="n1"></param>
+		/// <param name="n2"></param>
+		/// <returns>Retorna la resta si son los dos válidos, 0 si alguno es null.</returns>
         public static double operator -(Numero n1, Numero n2)
         {
             if (!(n1 is null) && !(n2 is null))
@@ -107,6 +157,13 @@ namespace Entidades
 
             return 0;
         }
+
+        /// <summary>
+		/// Sobrecarga operador +, recibe dos objetos Numero y los suma.
+		/// </summary>
+		/// <param name="n1"></param>
+		/// <param name="n2"></param>
+		/// <returns>Retorna la suma si son los dos válidos, 0 si alguno es null.</returns>
         public static double operator +(Numero n1, Numero n2)
         {
             if (!(n1 is null) && !(n2 is null))
@@ -116,11 +173,18 @@ namespace Entidades
 
             return 0;
         }
+
+        /// <summary>
+		/// Sobrecarga operador /, recibe dos objetos Numero y los divide.
+		/// </summary>
+		/// <param name="n1"></param>
+		/// <param name="n2"></param>
+		/// <returns>Retorna la división si son los dos válido, 0 si alguno es null, y double.MinValue si trató de dividir por 0</returns>
         public static double operator /(Numero n1, Numero n2)
         {
             if (!(n1 is null) && !(n2 is null))
             {
-                if(n2.numero == 0)
+                if (n2.numero == 0)
                 {
                     return double.MinValue;
                 }
@@ -130,6 +194,13 @@ namespace Entidades
             return 0;
         }
 
+
+        /// <summary>
+		/// Sobrecarga operador *, recibe dos objetos Numero y los multiplica
+		/// </summary>
+		/// <param name="n1"></param>
+		/// <param name="n2"></param>
+		/// <returns>Retorna la multiplicación si son los dos válidos, 0 si alguno es null</returns>
         public static double operator *(Numero n1, Numero n2)
         {
             if (!(n1 is null) && !(n2 is null))
@@ -138,6 +209,7 @@ namespace Entidades
             }
 
             return 0;
-        }
+        } 
+        #endregion
     }
 }
