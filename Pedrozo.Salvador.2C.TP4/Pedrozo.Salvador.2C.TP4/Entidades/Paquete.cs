@@ -9,19 +9,24 @@ namespace Entidades
 {
     public class Paquete : IMostrar<Paquete>
     {
+        #region Atributos
         public delegate void DelegadoEstado(object sender, EventArgs e);
         private string direccionEntrega;
         private string trackingID;
         private EEstado estado;
         public event DelegadoEstado InformaEstado;
+        #endregion
 
+        #region Constructores
         public Paquete(string direccionEntrega, string trackingId)
         {
             this.DireccionEntrega = direccionEntrega;
             this.TrackingID = trackingID;
             this.Estado = EEstado.Ingresado;
         }
+        #endregion
 
+        #region Métodos
         public string MostrarDatos(IMostrar<Paquete> elemento)
         {
             Paquete p = (Paquete)elemento;
@@ -44,6 +49,8 @@ namespace Entidades
             
         }
 
+
+        #region Sobrecargas
         public static bool operator ==(Paquete p1, Paquete p2)
         {
             if(p1.trackingID == p2.trackingID)
@@ -57,7 +64,10 @@ namespace Entidades
         {
             return !(p1 == p2);
         }
+        #endregion
+        #endregion
 
+        #region Propiedades
         public string DireccionEntrega
         {
             get
@@ -93,13 +103,16 @@ namespace Entidades
                 this.estado= value;
             }
         }
+        #endregion
 
-
+        #region Enumerados
         public enum EEstado
         {
             Ingresado,
             EnViaje,
             Entregado
         }
+        #endregion
+
     }
 }

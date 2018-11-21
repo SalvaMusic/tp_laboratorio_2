@@ -14,7 +14,7 @@ namespace Entidades
 
         static PaqueteDAO()
         {
-            conexion = new SqlConnection("Data Source = ./SQLEXPRESS;Initial Catalog = Paquetes; Integrated Security = True");
+            conexion = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=Paquetes; Integrated Security=True");
             comandoSql = new SqlCommand();
             comandoSql.Connection = conexion;
             comandoSql.CommandType = System.Data.CommandType.Text;

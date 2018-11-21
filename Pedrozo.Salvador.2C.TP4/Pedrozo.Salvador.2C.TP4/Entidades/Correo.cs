@@ -7,16 +7,29 @@ using System.Threading;
 
 namespace Entidades
 {
+
     public class Correo : IMostrar<List<Paquete>>
     {
+        #region Atributos
         private List<Thread> mockPaquetes;
         private List<Paquete> paquetes;
+        #endregion
 
+        #region Constructores
+        /// <summary>
+        /// Constructor por defecto. Inicializa las listas.
+        /// </summary>
         public Correo()
         {
             this.Paquetes = new List<Paquete>();
+            this.mockPaquetes = new List<Thread>();
         }
+        #endregion
 
+        #region Métodos
+        /// <summary>
+        /// Cierra todos los hilos en ejecución.
+        /// </summary>
         public void FinEntregas()
         {
             for(int i = 0; i < mockPaquetes.Count; i++)
@@ -28,6 +41,11 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Retorna cadena con los datos de todos los paquetes de la lista.
+        /// </summary>
+        /// <param name="elementos"></param>
+        /// <returns></returns>
         public string MostrarDatos(IMostrar<List<Paquete>> elementos)
         {
             List<Paquete> l = ((Correo)elementos).paquetes;
@@ -41,6 +59,12 @@ namespace Entidades
             return str;
         }
 
+        /// <summary>
+        /// Sobrecarga operador +. Agrega un paquete al correo. En caso de existir paquete lanzará una excepcion "TrackingIdRepetidoException"
+        /// </summary>
+        /// <param name="c">Correo al cual se le agregará el paquete</param>
+        /// <param name="p">Paquete a agregar</param>
+        /// <returns></returns>
         public static Correo operator +(Correo c, Paquete p)
         {
             foreach(Paquete paquete in c.Paquetes)
@@ -58,7 +82,13 @@ namespace Entidades
             
             return c;
         }
+        #endregion
 
+        #region Propiedades
+
+        /// <summary>
+        /// Lectura y escritura de las listas de paquetes.
+        /// </summary>
         public List<Paquete> Paquetes
         {
             get
@@ -70,5 +100,6 @@ namespace Entidades
                 this.paquetes = value;
             }
         }
+        #endregion
     }
 }

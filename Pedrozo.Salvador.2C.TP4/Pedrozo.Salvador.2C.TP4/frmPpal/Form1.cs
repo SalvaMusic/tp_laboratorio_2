@@ -21,5 +21,10 @@ namespace frmPpal
         {
 
         }
+
+        private void btnMostrarTodos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
