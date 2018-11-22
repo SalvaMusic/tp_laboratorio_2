@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Excepciones
 {
+    /// <summary>
+    /// Tipo de excepción.
+    /// </summary>
     public class AlumnoRepetidoException : Exception
     {
+        /// <summary>
+        /// Constructor por defecto.
+        /// </summary>
         public AlumnoRepetidoException() : base("Alumno repetido."){ }
     }
 }

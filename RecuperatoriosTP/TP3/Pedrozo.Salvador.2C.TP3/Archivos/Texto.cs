@@ -7,8 +7,18 @@ using System.IO;
 using Excepciones;
 namespace Archivos
 {
+
+    /// <summary>
+    /// Clase que manejará archivo de texto.
+    /// </summary>
     public class Texto : IArchivo<string>
     {
+        /// <summary>
+        /// Guardará una cadena de string en archivo de texto.
+        /// </summary>
+        /// <param name="archivo">Nombre del archivo que se guardará</param>
+        /// <param name="dato">string a guardar</param>
+        /// <returns></returns>
         public bool Guardar(string archivo, string dato)
         {
             try
@@ -25,6 +35,13 @@ namespace Archivos
             return true;
         }
 
+
+        /// <summary>
+        /// Leerá una cadena de string en archivo de texto.
+        /// </summary>
+        /// <param name="archivo">Nombre del archivo que se leerá</param>
+        /// <param name="dato">salida de string leído</param>
+        /// <returns></returns>
         public bool Leer(string archivo, out string dato)
         {
             
