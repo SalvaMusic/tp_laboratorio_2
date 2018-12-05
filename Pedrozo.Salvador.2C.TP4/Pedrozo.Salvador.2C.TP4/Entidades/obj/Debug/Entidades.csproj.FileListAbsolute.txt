@@ -1,0 +1,6 @@
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\Entidades\bin\Debug\Entidades.dll
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\Entidades\bin\Debug\Entidades.pdb
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\Entidades\obj\Debug\Entidades.dll
+C:\Users\xxxxx\Documents\Salva\tp_laboratorio_2\Pedrozo.Salvador.2C.TP4\Pedrozo.Salvador.2C.TP4\Entidades\obj\Debug\Entidades.pdb
