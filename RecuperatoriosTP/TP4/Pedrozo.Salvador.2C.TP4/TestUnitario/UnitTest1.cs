@@ -14,15 +14,9 @@ namespace TestUnitario
         public void TestMethod1()
         {
             Correo c = new Correo();
-
-            if (!(c.Paquetes is null))
-            {
-                Assert.IsTrue(true);
-            }
-            else
-            {
-                Assert.IsTrue(false);
-            }
+            
+            Assert.IsNotNull(c.Paquetes);
+            
                 
         }
 

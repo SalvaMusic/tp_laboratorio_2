@@ -103,5 +103,7 @@ namespace frmPpal
         {
             this.MostrarInformacion<Paquete>((IMostrar<Paquete>)lstEstadoEntregado.SelectedItem);
         }
+
+       
     }
 }
